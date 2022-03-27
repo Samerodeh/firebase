@@ -1,0 +1,148 @@
+.menu-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 26px;
+  }
+  
+  .menu-head {
+    width: 100%;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  li.menu-list-item {
+    min-width: 200px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  li.menu-list-item > a {
+    background-color: #f1f1f1;
+    color: #231900;
+    font-size: 16px;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 0px;
+    transition: 0.7s;
+    text-align: center;
+    width: 170px;
+    font-weight: 700;
+    border-radius: 10px;
+  }
+  
+  li.menu-list-item > a:last-child {
+    margin-right: 0;
+  }
+  
+  li.menu-list-item > a:hover {
+    background-color: #231900;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  li.menu-list-item.active-menu > a {
+    background-color: #231900 !important;
+    color: #ffffff;
+  }
+  
+  .menu-list > ul {
+    flex-wrap: wrap;
+  }
+  
+  .main-menu-title {
+    font-size: 20px;
+    position: relative;
+    text-transform: capitalize;
+    color: #231900;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+  }
+  
+  .main-menu-title > svg {
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+  }
+  
+  p.main-menu-desc {
+    font-size: 14px;
+    color: #8e8e8e;
+    margin-left: 2px;
+    margin-bottom: 20px;
+  }
+  
+  li.main-menu-item > a {
+    width: 100%;
+    padding: 22px 0;
+    height: 80px;
+    border-top: 2px solid #f3f5ff;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .main-menu-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .main-menu-image > img {
+    width: 80px;
+    border-radius: 20px;
+  }
+  
+  .mani-menu-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .info-title {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 2px;
+    padding-right: 30px;
+  }
+  
+  p.info-disc {
+    font-size: 14px;
+    font-weight: 100;
+    padding-right: 30px;
+  }
+  
+  p.inf-price {
+    margin-bottom: 10px;
+  }
+  
+  .main-menu-order {
+    align-items: center;
+  }
+  
+  .order-quantity {
+    margin-right: 10px;
+  }
+  
+  .order-button > button {
+    width: 120px;
+    height: 40px;
+    border: 0;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .order-quantity > input[type="number"] {
+    height: 38px;
+    width: 35px;
+    border-radius: 5px;
+    border: 1px solid #cfcfcf;
+    padding: 0 10px;
+    width: 30px;
+    background: #f2f2f2;
+    outline: none;
+  }
+  

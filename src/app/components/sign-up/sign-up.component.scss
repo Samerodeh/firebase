@@ -1,0 +1,589 @@
+
+// .displayTable {
+//   margin: 30px;
+//   padding: 0%;
+//   color: #000;
+//   margin-top: 30px;
+
+// }
+
+// .formControl {
+//   text-align: center;
+//   margin-top: 10%;
+// }
+
+@media screen {
+    input[type="checkbox"] {
+      display: none;
+      margin: 0;
+      padding: 0;
+    }
+    input[type="checkbox"] + label {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+    input[type="checkbox"] + label:before {
+      content: "";
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      margin-right: 10px;
+      -webkit-transition: 0.2s linear;
+      transition: 0.2s linear;
+      border: 1px solid #d0d0d0;
+      background: #ffffff;
+    }
+    input[type="checkbox"] + label:hover,
+    input[type="checkbox"] + label:focus {
+      cursor: pointer;
+    }
+    label {
+      font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+        sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 22px;
+      display: block;
+      margin-bottom: 10px;
+      color: #0d0c22;
+    }
+    form.gen-form fieldset {
+      position: relative;
+      margin: 8px 0;
+    }
+    input[type="text"],
+    input[type="password"],
+    textarea {
+      font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+        sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 100%;
+      height: 40px;
+      padding: 10px 16px;
+      -webkit-transition: background-color 200ms ease, outline 200ms ease,
+        color 200ms ease, -webkit-box-shadow 200ms ease;
+      transition: background-color 200ms ease, outline 200ms ease,
+        color 200ms ease, -webkit-box-shadow 200ms ease;
+      transition: background-color 200ms ease, outline 200ms ease,
+        color 200ms ease, box-shadow 200ms ease;
+      transition: background-color 200ms ease, outline 200ms ease,
+        color 200ms ease, box-shadow 200ms ease, -webkit-box-shadow 200ms ease;
+      border-radius: 8px;
+      outline: none;
+      background-color: #f3f3f4;
+      color: #0d0c22;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+    }
+    @media (min-width: 768px) {
+      input[type="text"],
+      input[type="password"],
+      textarea {
+        font-size: 14px;
+      }
+    }
+    input:hover[type="text"],
+    input:hover[type="password"],
+    textarea:hover {
+      border-color: rgba(0, 0, 0, 0.1);
+      background-color: #fff;
+      -webkit-box-shadow: 0 0 0 4px #ffca3c;
+      box-shadow: 0 0 0 4px #ffca3c;
+    }
+    input:focus[type="text"],
+    input:focus[type="password"],
+    textarea:focus {
+      border-color: #ffca3c;
+      background-color: #fff;
+      -webkit-box-shadow: 0 0 0 4px #ffca3c;
+      box-shadow: 0 0 0 4px #ffca3c;
+    }
+    input:active[type="text"],
+    input:active[type="password"],
+    textarea:active {
+      border-color: #e7e7e9;
+      background-color: #fff;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+    input:disabled:not(select):not(div)[type="text"],
+    input:disabled:not(select):not(div)[type="password"],
+    textarea:disabled:not(select):not(div) {
+      border-color: transparent;
+      background-color: #f3f3f4;
+      box-shadow: none;
+      color: #9e9ea7;
+    }
+    input:disabled:not(select):not(div)[type="text"],
+    input:disabled:not(select):not(div)[type="password"],
+    textarea:disabled:not(select):not(div) {
+      border-color: transparent;
+      background-color: #f3f3f4;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      color: #9e9ea7;
+    }
+    input[type="text"],
+    input[type="password"] {
+      border: 1px solid transparent;
+    }
+    input[type="text"]::-webkit-input-placeholder,
+    input[type="password"]::-webkit-input-placeholder {
+      color: #9e9ea7;
+    }
+    input[type="text"]:-ms-input-placeholder,
+    input[type="password"]:-ms-input-placeholder {
+      color: #9e9ea7;
+    }
+    input[type="text"]::-ms-input-placeholder,
+    input[type="password"]::-ms-input-placeholder {
+      color: #9e9ea7;
+    }
+    input[type="text"]::placeholder,
+    input[type="password"]::placeholder {
+      color: #9e9ea7;
+    }
+    textarea {
+      min-height: 108px;
+      border: 1px solid transparent;
+      resize: vertical;
+    }
+    input[type="checkbox"] {
+      display: -ms-flexbox;
+      display: flex;
+      position: relative;
+      -ms-flex-negative: 0;
+      flex-shrink: 0;
+      -ms-flex-align: center;
+      align-items: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      width: 20px;
+      height: 20px;
+      margin: 0 12px 0 0;
+      padding: 0;
+      -webkit-transition: background 200ms ease, border 200ms ease,
+        -webkit-box-shadow 200ms ease;
+      transition: background 200ms ease, border 200ms ease,
+        -webkit-box-shadow 200ms ease;
+      transition: box-shadow 200ms ease, background 200ms ease, border 200ms ease;
+      transition: box-shadow 200ms ease, background 200ms ease, border 200ms ease,
+        -webkit-box-shadow 200ms ease;
+      border: 1px solid #dbdbde;
+      border-radius: 4px;
+      outline: none;
+      background: #fff;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+    }
+    input:checked[type="checkbox"] {
+      border-color: #ffca3c;
+      background-color: #ffca3c;
+    }
+    input[type="checkbox"]:checked:after {
+      content: "";
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      background-image: url(https://cdn.dribbble.com/assets/icons/check-white-e1db84f77c352f71d23da8a5193fe4ee7e141ac90615ad9f177e24b1c815248f.svg);
+      background-repeat: no-repeat;
+    }
+    input[type="checkbox"]:disabled {
+      background-color: #f3f3f4;
+    }
+    div.captcha-not-loaded {
+      display: none;
+      background-position: 0 7px;
+    }
+    form.with-messages div.form-field {
+      position: relative;
+    }
+    form.with-messages fieldset {
+      margin: 0;
+      padding: 0;
+    }
+    input[type="checkbox"] {
+      display: none;
+      margin: 0;
+      padding: 0;
+    }
+    input[type="checkbox"] + label {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -ms-flex-align: center;
+      align-items: center;
+      font-size: 14px;
+      font-weight: normal;
+    }
+    input[type="checkbox"] + label:before {
+      content: "";
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      margin-right: 10px;
+      -webkit-transition: 0.2s linear;
+      transition: 0.2s linear;
+      border: 1px solid #d0d0d0;
+      background: #ffffff;
+    }
+    input[type="checkbox"] + label:hover,
+    input[type="checkbox"] + label:focus {
+      cursor: pointer;
+    }
+    .form-sub,
+    .form-btn,
+    a.form-btn {
+      display: inline-block;
+      position: relative;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      height: 40px;
+      padding: 10px 16px;
+      -webkit-transition: color 200ms ease;
+      transition: color 200ms ease;
+      border: none;
+      border-radius: 8px;
+      outline: none;
+      background: #ffca3c;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+        sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+    }
+    .form-btn.auth-twitter,
+    a.form-btn.auth-twitter {
+      color: #fff;
+    }
+    .form-btn.auth-twitter,
+    a.form-btn.auth-twitter {
+      background-color: #1da1f2;
+    }
+    .form-btn.auth-twitter:hover,
+    .form-btn.auth-twitter:focus,
+    a.form-btn.auth-twitter:hover,
+    a.form-btn.auth-twitter:focus {
+      background-color: #0d95e8;
+    }
+    .form-btn.auth-twitter:active,
+    a.form-btn.auth-twitter:active {
+      background-color: #0d8cda;
+    }
+    .form-btn svg,
+    a.form-btn svg {
+      width: 13px;
+      height: 13px;
+      margin-top: -3px;
+      margin-right: 2px;
+      fill: currentColor;
+      vertical-align: middle;
+    }
+    .form-sub {
+      color: #fff;
+    }
+    .form-sub:hover,
+    .form-sub:focus {
+      background: #ffca3c;
+    }
+    .form-sub:active {
+      background: #ffca3c;
+    }
+    .form-btn,
+    a.form-btn {
+      background: #f3f3f4;
+      color: #0d0c22;
+    }
+    .form-btn:hover,
+    .form-btn:focus,
+    a.form-btn:hover,
+    a.form-btn:focus {
+      background-color: #e7e7e9;
+    }
+    .form-btn:active,
+    a.form-btn:active {
+      background-color: #dbdbde;
+    }
+    div,
+    iframe,
+    h2,
+    p,
+    a,
+    fieldset,
+    form,
+    label {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-family: inherit;
+      font-size: 100%;
+      font-style: inherit;
+      font-weight: inherit;
+      line-height: 1;
+      vertical-align: baseline;
+    }
+    .divider {
+      border-top: 1px solid #dbdbde;
+    }
+    a {
+      color: #f2002d;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #7263d4;
+    }
+    a:active {
+      color: #3f30a1;
+    }
+    a.form-btn:hover {
+      color: #0d0c22;
+    }
+    h2 {
+      margin-bottom: 26px;
+      font: bold 24px/29px "Haas Grot Text R Web", "Helvetica Neue", Helvetica,
+        Arial, sans-serif;
+    }
+    hr.divider {
+      margin-bottom: 10px;
+      padding: 0;
+      overflow: visible;
+      border: none;
+      border-top: 1px solid #e0e0e0;
+      color: #6e6d7a;
+      text-align: center;
+    }
+    hr.divider:after {
+      content: "Or";
+      display: inline-block;
+      position: relative;
+      top: -7px;
+      padding: 0 16px;
+      background: #fff;
+      font: normal 14px/14px "Haas Grot Text R Web", "Helvetica Neue", Helvetica,
+        Arial, sans-serif;
+    }
+    .auth-connections {
+      display: -ms-flexbox;
+      display: flex;
+      margin: 0 0 40px;
+    }
+    .auth-connections a.auth-twitter {
+      -ms-flex-positive: 0;
+      flex-grow: 0;
+      margin-left: 10px;
+    }
+    @media (min-width: 400px) {
+      .auth-connections a.auth-twitter {
+        margin-left: 16px;
+      }
+    }
+    .auth-twitter,
+    a.auth-twitter,
+    a.form-btn.auth-twitter {
+      background-color: #f2f2f2;
+      color: #6e6d7a;
+    }
+    .auth-twitter:hover,
+    a.auth-twitter:hover,
+    a.form-btn.auth-twitter:hover {
+      background-color: #e5e5e5;
+    }
+    .auth-twitter:active,
+    a.auth-twitter:active,
+    a.form-btn.auth-twitter:active {
+      background-color: #d9d9d9;
+    }
+    form fieldset {
+      margin: 0 0 12px;
+    }
+    label {
+      display: block;
+      margin: 14px 0 4px;
+      color: #0d0c22;
+      font: bold 15px/24px "Haas Grot Text R Web", "Helvetica Neue", Helvetica,
+        Arial, sans-serif;
+    }
+    input[type="checkbox"] + label {
+      display: block;
+    }
+    .opt-in label {
+      position: relative;
+      margin: 18px 0 0;
+      padding-left: 26px;
+      color: #6e6d7a;
+      font: normal 14px/18px "Haas Grot Text R Web", "Helvetica Neue", Helvetica,
+        Arial, sans-serif;
+    }
+    .opt-in label:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    input[type="checkbox"]:checked + label:before {
+      -webkit-transition: none;
+      transition: none;
+      background: #f2002d
+        url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTAuNjQwMiAyLjIzNjQ4QzEwLjIxNjIgMS44NzU5OCA5LjU4NTcgMS45MzQ0OCA5LjIzMTcgMi4zNjc0OEw0LjgwNzIgNy43ODQ5OEwyLjU1NTIgNi4yNTI5OEMyLjA5NjIgNS45Mzk5OCAxLjQ3NDcgNi4wNjY5OCAxLjE2ODcgNi41MzU5OEMwLjg2MjcwMSA3LjAwNDk4IDAuOTg2NzAxIDcuNjM4NDggMS40NDYyIDcuOTUwOThMNS4xOTMyIDEwLjVMMTAuNzY4NyAzLjY3MzQ4QzExLjEyMjIgMy4yNDA0OCAxMS4wNjQ3IDIuNTk3NDggMTAuNjQwMiAyLjIzNjQ4WiIgZmlsbD0id2hpdGUiLz48L3N2Zz4=");
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+    input[type="checkbox"] + label:before {
+      border-radius: 2px;
+    }
+    input[type="checkbox"]:checked + label:before {
+      border: 1px solid #f2002d;
+    }
+    input.text-input {
+      width: 100%;
+      margin-right: 8px;
+    }
+    input.button {
+      display: block;
+      width: 100%;
+      margin-top: 22px;
+    }
+    @media (min-width: 960px) {
+      input.button {
+        max-width: 100%;
+      }
+    }
+    input.button:hover,
+    input.button:focus {
+      background-color: #ffca3c;
+      text-decoration: none;
+    }
+    input.button:active {
+      background-color: #ffca3c;
+      text-decoration: none;
+    }
+    p {
+      margin: 20px 0 0;
+      color: #000;
+      font: normal 14px/20px "Haas Grot Text R Web", "Helvetica Neue", Helvetica,
+        Arial, sans-serif;
+    }
+    @media (min-width: 400px) {
+      div.form-field-group {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+      }
+      div.form-field-group .form-field {
+        width: 48%;
+      }
+    }
+    main {
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    @media (min-width: 960px) {
+      main {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+      }
+    }
+    .auth-content {
+      width: 100%;
+      max-width: 416px;
+      margin: auto;
+    }
+    @media (min-width: 960px) {
+      .auth-content {
+        margin: 0;
+        padding: 30px 60px 0;
+      }
+    }
+    .google-connect-btn {
+      min-width: 250px;
+    }
+    .g-recaptcha {
+      height: 65px;
+    }
+    .auth-link-mobile {
+      text-align: center;
+    }
+    @media (min-width: 960px) {
+      .auth-link-mobile {
+        display: none;
+      }
+    }
+    .grecaptcha-badge {
+      visibility: hidden;
+      border: 1px solid #ff0000;
+    }
+    .recaptcha-terms {
+      max-width: 300px;
+      color: #9e9ea7;
+      font: normal 11px/16px "Haas Grot Text R Web", "Helvetica Neue", Helvetica,
+        Arial, sans-serif;
+    }
+    .hide {
+      display: none;
+    }
+  }
+  /*! CSS Used from: Embedded */
+  .S9gUrf-YoZ4jf,
+  .S9gUrf-YoZ4jf * {
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .google-auth {
+    background: #1a73e8;
+    border-radius: 5px;
+    width: 220px;
+  }
+  
+  .google-auth > a {
+    align-items: center;
+    padding: 4.5px 5px 3px 10px;
+    color: #fff;
+    font-weight: 400;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  
+  .google-logo {
+    background: white;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  
+  .google-logo > svg {
+    width: 20px;
+    height: 20px;
+  }
+  

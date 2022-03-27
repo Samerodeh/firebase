@@ -1,0 +1,39 @@
+<div class="auth-content" style="margin: 200px auto 80px">
+  <h2 style="text-align: center">Login To Restaurant-Menu</h2>
+  <div class="auth-form signup-form">
+    <form
+      
+    >
+      <input type="hidden" name="product" id="product" />
+
+      <input type="hidden" name="user[bio]" id="user_bio" />
+      <input type="hidden" name="user[location]" id="user_location" />
+
+      <div class="form-field">
+        <fieldset class="user_email">
+          <label for="user_email">Email</label
+          ><input
+         type="text" class="formControl" placeholder="Username" #userName required
+          />
+        </fieldset>
+      </div>
+
+      <div class="form-field">
+        <fieldset class="user_password">
+          <label for="user_password">Password</label
+          ><input
+          type="password" class="formControl" placeholder="Password" #userPassword required
+          />
+        </fieldset>
+      </div>
+
+      <div class="form-btns">
+        <input
+         type="button" class="btn btnPrimary" value="Log in" (click)="authService.SignIn(userName.value, userPassword.value)"
+        />
+      </div>
+    </form>
+  </div>
+</div>
+
+<app-newseltter></app-newseltter> 

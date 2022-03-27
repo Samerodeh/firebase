@@ -1,0 +1,70 @@
+<div class="location-restaurants">
+    <div class="top-section">
+      <h1 class="top-title">
+        Best Restaurants In <span>Islamabad Capital Territory</span>
+      </h1>
+      <form action="#">
+        <input
+          type="text"
+          name="search"
+          id="search"
+          placeholder="Search your favourite restaurant..."
+          autocomplete="none"
+          required
+        />
+        <button type="submit" class="bg-red">Search</button>
+      </form>
+    </div>
+    <div class="bottom-section">
+      <h2 class="category-title">Popular Restaurants</h2>
+      <ul class="category-list flex">
+        <li class="category-item" *ngFor="let i of [1, 1, 1, 1, 1, 1, 1, 1]">
+          <a href="#">
+            <div class="img-container">
+              <img src="assets/images/dish.jpg" alt="" />
+  
+              <div class="time-take">
+                <p>35</p>
+                <p>min</p>
+              </div>
+            </div>
+            <div class="info-contaniner">
+              <div class="title flex">
+                <h4>Pizza Hut - I9</h4>
+  
+                <div class="star flex">
+                  <span
+                    class="iconify"
+                    data-icon="bi:star-fill"
+                    style="color: black"
+                  ></span>
+                  <p><span>4.5</span>/5</p>
+                </div>
+              </div>
+              <div class="rating flex">
+                <div class="location flex">
+                  <span
+                    class="iconify"
+                    data-icon="el:map-marker"
+                    style="color: black"
+                  ></span>
+                  <p>Main Boulevard , Lahore</p>
+                </div>
+              </div>
+              <div class="time flex">
+                <div class="duration flex">
+                  <span
+                    class="iconify"
+                    data-icon="akar-icons:clock"
+                    style="color: black"
+                  ></span>
+                  <p>12:01 am - 11:59 pm</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  

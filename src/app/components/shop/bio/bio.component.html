@@ -1,0 +1,84 @@
+<div class="shop-bio">
+    <div class="bio-image">
+      <img src="assets/images/arcadian.jpg" alt="" />
+    </div>
+    <div class="flex main-bio">
+      <div class="main-bio-data flex">
+        <div class="data-image">
+          <img src="assets/images/pizzahut.png" alt="" />
+        </div>
+        <div class="main-data">
+          <div class="star flex">
+            <span
+              class="iconify"
+              data-icon="bi:star-fill"
+              style="color: black"
+            ></span>
+            <p><span>4.5</span>/5 (391)</p>
+          </div>
+          <h2>Pizza Hut - F10</h2>
+          <div class="data-location flex">
+            <span
+              class="iconify"
+              data-icon="el:map-marker"
+              style="color: black"
+            ></span>
+            <p>F10 Markaz, Shop No 33, Islamabad Pakistan - 42000</p>
+          </div>
+        </div>
+      </div>
+      <div class="main-bio-time flex">
+        <div class="time-dropdown">
+          <button class="flex time-button" onclick="timeDrop()">
+            Working Hours
+            <span
+              class="iconify"
+              data-icon="eva:arrow-down-fill"
+              style="color: black"
+            ></span>
+          </button>
+          <ul id="time-list" class="time-list" style="margin: 0px">
+            <li class="flex time-item">
+              <span class="today-status yellow">Today </span
+              ><span class="days-timing">12:01 am - 11:59 pm</span>
+            </li>
+            <li class="flex time-item">
+              <span class="days-names">Monday</span
+              ><span class="days-timing">12:01 am - 11:59 pm</span>
+            </li>
+            <li class="flex time-item">
+              <span class="days-names">Tuesday</span
+              ><span class="days-timing">12:01 am - 11:59 pm</span>
+            </li>
+            <li class="flex time-item">
+              <span class="days-names">Wednesday</span
+              ><span class="days-timing">12:01 am - 11:59 pm</span>
+            </li>
+            <li class="flex time-item">
+              <span class="days-names">Thursday</span
+              ><span class="days-timing">12:01 am - 11:59 pm</span>
+            </li>
+            <li class="flex time-item">
+              <span class="days-names">Friday</span
+              ><span class="days-timing">12:01 am - 11:59 pm</span>
+            </li>
+            <li class="flex time-item">
+              <span class="days-names">Saturday</span
+              ><span class="days-timing">12:01 am - 11:59 pm</span>
+            </li>
+            <li class="flex time-item">
+              <span class="days-names">Sunday</span
+              ><span class="days-timing">12:01 am - 11:59 pm</span>
+            </li>
+          </ul>
+        </div>
+        <script>
+          function timeDrop() {
+            var element = document.getElementById("time-list");
+            element.classList.toggle("show");
+          }
+        </script>
+      </div>
+    </div>
+  </div>
+  

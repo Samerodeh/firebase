@@ -1,0 +1,462 @@
+@media all {
+  div,
+  span,
+  h3,
+  a,
+  ul,
+  li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    -webkit-text-stroke: 0 !important;
+  }
+  ul {
+    display: block !important;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+    text-rendering: optimizeLegibility;
+  }
+  h3,
+  .fa,
+  i {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+  }
+  a {
+    max-width: 100%;
+    outline: 0;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  ::-moz-selection {
+    color: #fff;
+  }
+  ::selection {
+    color: #fff;
+  }
+  ul {
+    margin: 1em 0;
+  }
+  ul {
+    list-style-type: disc;
+    list-style: outside none disc;
+    margin-left: 15px;
+  }
+  .widget.widget_nav_menu ul.menu li {
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+  .widget.widget_nav_menu ul.menu li a {
+    margin: 0;
+    padding: 8px 0;
+    width: 100%;
+    font-size: 14px;
+  }
+  .widget.widget_nav_menu ul.menu li a:hover {
+    padding-left: 5px;
+  }
+  i {
+    font-style: italic;
+  }
+  #footer {
+    z-index: 100;
+  }
+  div.widget_nav_menu ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+  }
+  div.widget_nav_menu ul li {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e8e8e8;
+    font-size: 13px;
+  }
+  div.widget_nav_menu ul li a {
+    display: inline-block;
+    padding: 2px 0;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    text-align: left;
+  }
+  div.widget_nav_menu ul li {
+    width: 100%;
+    font-size: 14px;
+  }
+  h3 {
+    color: #333;
+  }
+  h3 {
+    line-height: 1.3em;
+  }
+  .one_fourth {
+    float: left;
+    margin-right: 4%;
+    position: relative;
+  }
+  .last {
+    clear: right;
+    margin-right: 0 !important;
+  }
+  .one_fourth {
+    width: 22%;
+  }
+  #footer .widget {
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1;
+  }
+  .inner {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1360px;
+    text-align: left;
+    padding: 0 40px;
+    position: relative;
+  }
+  #footer {
+    font-size: 14px;
+    margin: 0;
+    min-width: 100%;
+    background-color: #111;
+    overflow: hidden;
+    position: relative;
+  }
+  #footer > .inner {
+    padding-top: 80px;
+    padding-bottom: 30px;
+  }
+  #footer > .inner:empty {
+    display: none;
+  }
+  .widget > h3:first-of-type {
+    font-size: 21px;
+    font-weight: 700;
+    padding: 0;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  #footer .widget > h3:first-child {
+    margin-bottom: 40px;
+  }
+  .widget > h3:first-child:before {
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    display: block;
+    content: "";
+    width: 50px;
+    height: 2px;
+  }
+  #powered {
+    min-width: 100%;
+    color: #cecece;
+  }
+  #powered .inner {
+    font-size: 11px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  #powered .author_credits {
+    width: 48%;
+    float: right;
+    text-align: right;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  #powered .Restaurant-Menu-social {
+    width: 48%;
+    float: left;
+    text-align: right;
+  }
+  #powered .author_credits a {
+    font-size: 10px;
+  }
+  .cards_icon {
+    width: 51px;
+    height: 32px;
+    margin: 8px 6px 0 0;
+    float: left;
+    background-image: url(/assets/images/cards.png);
+  }
+  .visa_icon {
+    background-position: 155px 0;
+  }
+  .mastercard_icon {
+    background-position: 208px 0;
+  }
+  .maestro_icon {
+    background-position: -105px 0;
+  }
+  .american-express_icon {
+    background-position: 0 0;
+  }
+  .cirrus_icon {
+    background-position: -53px 0;
+  }
+  .paypal_icon {
+    background-position: 0 -33px;
+  }
+  .cash-on-delivery_icon {
+    background-position: 103px 0;
+  }
+  .direct-debit_icon {
+    background-position: 51px 0;
+  }
+  .footer_time,
+  .footer_address,
+  .footer_phone,
+  .footer_fax,
+  .footer_mail {
+    display: block;
+    clear: both;
+    padding: 8px 0 8px 0;
+    line-height: 18px;
+    vertical-align: middle;
+    margin: 0;
+    position: relative;
+  }
+  .footer_time:before,
+  .footer_address:before,
+  .footer_phone:before,
+  .footer_fax:before,
+  .footer_mail:before {
+    font-size: 18px;
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 8px 0 0;
+    font-family: "font awesome 5 free";
+    font-weight: 900;
+  }
+  .footer_time:before {
+    content: "\f017";
+  }
+  .footer_address:before {
+    content: "\f041";
+  }
+  .footer_phone:before {
+    content: "\f095";
+  }
+  .footer_fax:before {
+    content: "\f1ac";
+  }
+  .footer_mail:before {
+    content: "\f0e0";
+  }
+  div:not(#footer) > .inner:after,
+  #footer:after {
+    content: " ";
+    display: block;
+    height: 0px !important;
+    clear: both;
+    visibility: hidden;
+  }
+  .clear {
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+  }
+  #powered .Restaurant-Menu-social ul {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    text-align: left;
+  }
+  .Restaurant-Menu-social ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    z-index: 1099;
+    list-style: none !important;
+  }
+  .Restaurant-Menu-social ul li a {
+    display: block;
+    font-size: 14px !important;
+    height: 41px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  #powered .Restaurant-Menu-social ul li a {
+    color: #cecece;
+    background: 0 0;
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    font-size: 17px !important;
+    border-radius: 50%;
+    margin-right: 2px;
+  }
+  .Restaurant-Menu-social ul li a:hover {
+    opacity: 0.5;
+  }
+  @media only screen and (max-width: 1279px) {
+    #footer .inner {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    #powered .Restaurant-Menu-social,
+    #powered .author_credits {
+      width: 100%;
+      padding-right: 70px;
+      text-align: left;
+    }
+  }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .inner {
+      width: 100% !important;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    #footer .widget {
+      width: 98% !important;
+      margin-right: 1% !important;
+      margin-left: 1% !important;
+      margin-bottom: 30px;
+    }
+  }
+  @media only screen and (min-width: 600px) and (max-width: 767px) {
+    .one_fourth {
+      width: 48%;
+      margin-right: 2%;
+    }
+  }
+  @media only screen and (min-width: 380px) and (max-width: 599px) {
+    .one_fourth {
+      width: 98%;
+      margin-right: 1% !important;
+      margin-left: 1% !important;
+      margin-bottom: 30px;
+    }
+  }
+  @media only screen and (min-width: 300px) and (max-width: 379px) {
+    .one_fourth {
+      width: 98%;
+      margin-right: 1% !important;
+      margin-left: 1% !important;
+      margin-bottom: 30px;
+    }
+  }
+  .fa.fa-twitter {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+  }
+  .fa.fa-facebook {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+  }
+  .fa.fa-facebook:before {
+    content: "\f39e";
+  }
+  .fa.fa-youtube-play {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+  }
+  .fa.fa-youtube-play:before {
+    content: "\f167";
+  }
+  .fa.fa-instagram {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+  }
+  .fa {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+  }
+  .fa-facebook:before {
+    content: "\f09a";
+  }
+  .fa-instagram:before {
+    content: "\f16d";
+  }
+  .fa-twitter:before {
+    content: "\f099";
+  }
+  .fa {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+  }
+}
+/*! CSS Used from: Embedded */
+.widget > h3:first-child:before,
+.widget > h3:first-child:after {
+  background-color: #f2002d;
+}
+::-moz-selection {
+  background: #f2002d;
+}
+::selection {
+  background: #f2002d;
+}
+a,
+div.widget_nav_menu ul li a:hover {
+  color: #f2002d;
+}
+a:hover {
+  color: #ce4f44;
+}
+#footer {
+  background-color: #2a2a2a;
+}
+#footer .widget > h3:first-child {
+  color: #ffffff;
+  border-color: #f1f1f1;
+}
+#footer > .inner div.widget_nav_menu ul li a {
+  border-color: #f1f1f1;
+}
+#powered .Restaurant-Menu-social ul li a {
+  color: #aeaeae;
+}
+#footer > .inner a {
+  color: #f5f5f5;
+}
+#footer {
+  color: #aeaeae;
+}
+#footer > .inner div.widget_nav_menu ul li {
+  border-color: #f1f1f1;
+}
+#powered {
+  background-color: #222222;
+  color: #aeaeae;
+}
+h3,
+div.widget_nav_menu ul li a {
+  font-family: "Rubik";
+  font-display: fallback;
+}
+h3 {
+  color: #22272d;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
+}

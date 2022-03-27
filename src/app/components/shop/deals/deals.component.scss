@@ -1,0 +1,133 @@
+.deals {
+    background-color: #f2f2f2;
+  }
+  
+  .deal-container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 80px 8px;
+    justify-content: space-between;
+  }
+  
+  .detail-box {
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 20px;
+    padding-right: 0;
+    width: 280px;
+    margin-bottom: 30px;
+  }
+  
+  .right-popular.detail-box {
+    padding-right: 20px;
+    width: 260px;
+  }
+  
+  .left-adver.detail-box {
+    padding-right: 20px;
+    width: 260px;
+  }
+  
+  h3.deal-title {
+    position: relative;
+    margin-bottom: 26px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #071c1f;
+  }
+  
+  ul.details-list {
+    width: 100%;
+  }
+  
+  li.details-item > button {
+    border: 0;
+    transition: none;
+    margin-bottom: 8px;
+    padding: 0.9rem 0.9rem;
+    border-radius: 20px 0 0 20px;
+    width: 100%;
+    background: #fff;
+    font-size: 16px;
+    align-items: center;
+  }
+  
+  li.details-item > button.active {
+    background: #f2f2f2;
+  }
+  
+  li.details-item > button > svg {
+    margin-right: 10px;
+    height: 25px;
+    width: 25px;
+  }
+  
+  .left-adver.detail-box > a img {
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  .center-deals {
+    margin: 0 24px;
+    width: 100%;
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 20px;
+    overflow: auto;
+    height: 100%;
+  }
+  
+  .best-image > img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  
+  .best-image {
+    margin-bottom: 10px;
+  }
+  
+  .best-info > h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 2px;
+  }
+  
+  p.best-desc {
+    font-size: 14px;
+    color: #828282;
+    margin-bottom: 20px;
+  }
+  
+  .best-info {
+    padding: 0 10px;
+    margin-bottom: 10px;
+  }
+  
+  .best-button {
+    padding: 0 10px;
+    margin-top: 20px;
+  }
+  
+  .best-button > button {
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .tabcontent {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+  }
+  
+  /* Go from zero to full opacity */
+  @keyframes fadeEffect {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

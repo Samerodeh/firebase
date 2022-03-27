@@ -1,0 +1,92 @@
+<div class="auth-content" style="margin: 200px auto 80px">
+  <h2 style="text-align: center">SignUp To Restaurant-Menu</h2>
+  <div class="auth-connections">
+    <div class="google-auth">
+      <a href="#" class="flex">
+        Register with Google
+        <div class="google-logo">
+          <span
+            class="iconify"
+            data-icon="flat-color-icons:google"
+            style="color: #ffc700"
+          ></span>
+        </div>
+      </a>
+    </div>
+
+  
+  </div>
+  <hr class="divider" />
+
+  <div class="auth-form signup-form">
+    <form
+      class="hide-remove gen-form with-messages signup"
+      id="new_user"
+      action="/"
+      accept-charset="UTF-8"
+      method="post"
+    >
+      <input name="utf8" type="hidden" value="✓" /><input
+        type="hidden"
+        name="authenticity_token"
+      />
+    
+
+      <input type="hidden" name="product" id="product" />
+
+      <input type="hidden" name="user[bio]" id="user_bio" />
+      <input type="hidden" name="user[location]" id="user_location" />
+
+
+      <div class="form-field">
+        <fieldset class="user_email">
+          <label for="user_email">Email</label
+          ><input
+          type="email"
+          class="formControl"
+          placeholder="Email Address"
+          #userEmail
+          required
+          />
+        </fieldset>
+      </div>
+
+      <div class="form-field">
+        <fieldset class="user_password">
+          <label for="user_password">Password</label
+          ><input
+          type="password"
+          class="formControl"
+          placeholder="Password"
+          #userPwd
+          required
+          />
+        </fieldset>
+      </div>
+
+      <div class="form-field check-wrap opt-in">
+        <fieldset>
+          <input
+          type="button"
+          class="btn googleBtn"
+          />
+          <label  (click)="authService.GoogleAuth()"
+          >
+           
+          </label>
+        </fieldset>
+      </div>
+
+      <div class="form-btns">
+        <input
+        type="button"
+        class="btn btnPrimary"
+        value="Sign Up"
+        (click)="authService.SignUp(userEmail.value, userPwd.value)"
+        />
+      </div>
+
+      <p>Already a member? <a href="/sign-in">Sign In</a></p>
+    </form>
+  </div>
+</div> 

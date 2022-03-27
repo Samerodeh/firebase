@@ -1,1 +1,73 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+button,
+img,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #ffca3c;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 3em;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+.flex {
+  display: flex;
+}
+
+.block {
+  display: block !important;
+}
+
+.none {
+  display: none;
+}
+
+.yellow {
+  color: #ffca3c;
+}
+
+.red {
+  color: #f2002d;
+}
+
+.bg-yellow {
+  background: #ffca3c;
+}
+
+.bg-red {
+  background: #f2002d;
+}

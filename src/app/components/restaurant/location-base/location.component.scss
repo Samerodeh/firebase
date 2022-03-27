@@ -1,0 +1,158 @@
+.location-restaurants {
+    margin: 200px auto 80px;
+    max-width: 1320px;
+  }
+  
+  h1.top-title {
+    font-weight: 400;
+    color: #565656;
+    margin-bottom: 20px;
+  }
+  
+  .top-section > form > input {
+    width: 400px;
+    height: 30px;
+    border-radius: 20px 0 0 20px;
+    border: 1px solid #cfcfcf;
+    padding: 5px 20px;
+    outline: none;
+    font-size: 16px;
+    color: #969696;
+  }
+  
+  .top-section {
+    margin-bottom: 50px;
+  }
+  
+  .top-section > form > button {
+    height: 43px;
+    outline: none;
+    border: 1px solid #cfcfcf;
+    padding: 5px 20px;
+    border-radius: 0 20px 20px 0;
+    color: white;
+    font-size: 16px;
+  }
+  
+  h2.category-title {
+    margin-bottom: 30px;
+    color: #848484;
+    font-weight: 300;
+  }
+  
+  h1.top-title > span {
+    font-weight: 500;
+    color: #353535;
+  }
+  
+  .img-container {
+    max-width: 280px;
+    margin: 10px auto;
+  }
+  
+  li.category-item {
+    width: 300px;
+    border: 1px solid #cfcfcf;
+    border-radius: 20px;
+    transition: box-shadow 0.4s;
+    margin-right: 28px;
+    margin-bottom: 25px;
+    cursor: pointer;
+  }
+  
+  ul.category-list.flex {
+    flex-wrap: wrap;
+  }
+  .img-container > img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  
+  .time-take {
+    position: absolute;
+    bottom: 235px;
+    margin-left: 215px;
+    background: rgb(255 255 255 / 88%);
+    border: 1px solid #cdcdcd;
+    border-radius: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #333333;
+  }
+  
+  .info-contaniner {
+    margin: 10px 15px 20px;
+  }
+  
+  .title.flex {
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .location > p {
+    font-size: 14px;
+    margin-left: 10px;
+    color: #7c7c7c;
+  }
+  
+  .location > svg {
+    color: #4c4c4c !important;
+  }
+  
+  .title.flex > h4 {
+    color: #414141;
+    font-weight: 500;
+    overflow: auto;
+    width: 75%;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .star.flex {
+    width: 325;
+    color: #cfcfcf;
+    font-size: 14px;
+  }
+  
+  .star.flex > svg {
+    width: 15px;
+    height: 15px;
+    color: #ffca3c !important;
+    margin-right: 10px;
+  }
+  
+  .star.flex > p > span {
+    color: #000;
+    font-weight: 500;
+  }
+  
+  .duration {
+    align-items: flex-end;
+    color: #f2002d !important;
+  }
+  
+  .duration > svg {
+    margin-right: 10px;
+    color: #f2002d !important;
+  }
+  
+  .rating.flex {
+    margin-bottom: 30px;
+  }
+  
+  li.category-item > a:hover {
+    text-decoration: none;
+  }
+  
+  li.category-item:hover {
+    box-shadow: 0 0 10px 0 #cfcfcf;
+  }
+  
