@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -48,10 +48,22 @@ import { AuthService } from "./shared/services/auth.service";
 import { HomeComponent } from './components/home/home.component';
 import { ReviewComponent } from './components/shop/review/review.component';
 import { NewseltterComponent } from './components/home/newseltter/newseltter.component';
+import { AddStudentComponent } from './components/add-student/add-student.component';
+import { EditStudentComponent } from './components/edit-student/edit-student.component';
+import { StudentListComponent } from './components/student-list/student-list.component';
+
+// Import below modules for NGX Toastr
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ToastrModule } from 'ngx-toastr';
+
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+
+// NGX Pagination
+import { NgxPaginationModule } from 'ngx-pagination';
 
 @NgModule({
   declarations: [
-    
+
     LocationsComponent,
     ProductBaseComponent,
     AppComponent,
@@ -78,9 +90,16 @@ import { NewseltterComponent } from './components/home/newseltter/newseltter.com
     AboutComponent,
     ContactComponent,
     AccountComponent,
-  
+
     ReviewComponent,
     NewseltterComponent,
+    AddStudentComponent,
+    EditStudentComponent,
+    StudentListComponent,
+
+    AddStudentComponent,
+    EditStudentComponent,
+    StudentListComponent,
   ],
   imports: [
     BrowserModule,
@@ -90,8 +109,14 @@ import { NewseltterComponent } from './components/home/newseltter/newseltter.com
     AngularFirestoreModule,
     AngularFireStorageModule,
     AngularFireDatabaseModule,
+    BrowserAnimationsModule, // required animations module
+    ToastrModule.forRoot(), // ToastrModule added
+    ReactiveFormsModule,
+    NgxPaginationModule,  // Include it in imports array
+    FormsModule,
   ],
   providers: [AuthService],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class AppModule { }

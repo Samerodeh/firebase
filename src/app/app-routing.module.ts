@@ -18,6 +18,11 @@ import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { LocationBaseComponent } from './components/restaurant/location-base/location.component';
 
+import { CommonModule } from '@angular/common';
+import { AddStudentComponent } from './components/add-student/add-student.component';
+import { StudentListComponent } from './components/student-list/student-list.component';
+import { EditStudentComponent } from './components/edit-student/edit-student.component';
+
 const routes: Routes = [
   {path:'home', component:HomeComponent},
   { path: 'shop', component: ShopComponent },
@@ -35,11 +40,16 @@ const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
   { path: 'forgot-password', component: ForgotPasswordComponent },
   { path: 'verify-email-address', component: VerifyEmailComponent },
+
+  { path: '', redirectTo: '/register-student', pathMatch: 'full' },
+  { path: 'register-student', component: AddStudentComponent },
+  { path: 'view-students', component: StudentListComponent },
+  { path: 'edit-student/:id', component: EditStudentComponent }
 ];
 
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes), CommonModule],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

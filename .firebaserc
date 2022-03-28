@@ -1,5 +1,14 @@
 {
   "projects": {
-    "default": "restaurant-menu-a6de8"
+    "default": "menu-task-b9695"
+  },
+  "targets": {
+    "menu-task-b9695": {
+      "hosting": {
+        "firebase": [
+          "menu-task-b9695"
+        ]
+      }
+    }
   }
 }
